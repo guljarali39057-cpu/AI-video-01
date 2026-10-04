@@ -1,0 +1,29 @@
+2026-10-03 19:52:28,122 - INFO - Daemon started.
+2026-10-03 19:55:45,380 - INFO - Daemon started.
+2026-10-03 19:55:45,380 - INFO - Starting daily pipeline execution.
+2026-10-03 19:55:45,380 - INFO - Generated Short #1 with prompt: 54-second vertical short, neon city skyline, high-speed police chase, rain-slicked asphalt.
+2026-10-03 19:55:45,381 - INFO - Successfully uploaded short: The Heat Is On - Part 1 #GTA6 #Shorts #ViceCity
+2026-10-03 19:56:00,381 - INFO - Generated Short #2 with prompt: 54-second vertical short, neon city skyline, high-speed police chase, rain-slicked asphalt.
+2026-10-03 19:56:00,385 - INFO - Successfully uploaded short: The Heat Is On - Part 2 #GTA6 #Shorts #ViceCity
+2026-10-03 19:56:15,386 - INFO - Generated Short #3 with prompt: 54-second vertical short, neon city skyline, high-speed police chase, rain-slicked asphalt.
+2026-10-03 19:56:15,386 - INFO - Successfully uploaded short: The Heat Is On - Part 3 #GTA6 #Shorts #ViceCity
+2026-10-03 19:56:30,387 - INFO - Generated Short #4 with prompt: 54-second vertical short, neon city skyline, high-speed police chase, rain-slicked asphalt.
+2026-10-03 19:56:30,388 - INFO - Successfully uploaded short: The Heat Is On - Part 4 #GTA6 #Shorts #ViceCity
+2026-10-03 19:56:45,389 - INFO - Generated Short #5 with prompt: 54-second vertical short, neon city skyline, high-speed police chase, rain-slicked asphalt.
+2026-10-03 19:56:45,389 - INFO - Successfully uploaded short: The Heat Is On - Part 5 #GTA6 #Shorts #ViceCity
+2026-10-03 19:57:00,391 - INFO - Generated Short #6 with prompt: 54-second vertical short, neon city skyline, high-speed police chase, rain-slicked asphalt.
+2026-10-03 19:57:00,391 - INFO - Successfully uploaded short: The Heat Is On - Part 6 #GTA6 #Shorts #ViceCity
+2026-10-03 19:57:15,392 - INFO - Generated Long Video #1 with prompt: 6-minute cinematic walkthrough, Danny and Rosa standoff, police cruisers, action-packed.
+2026-10-03 19:57:15,393 - INFO - Successfully uploaded long: GTA 6 – Vice City Heist (Part 1) Cinematic Walkthrough
+2026-10-03 19:57:45,395 - INFO - Generated Long Video #2 with prompt: 6-minute cinematic walkthrough, Danny and Rosa standoff, police cruisers, action-packed.
+2026-10-03 19:57:45,404 - INFO - Successfully uploaded long: GTA 6 – Vice City Heist (Part 2) Cinematic Walkthrough
+2026-10-03 19:58:15,406 - INFO - Generated Long Video #3 with prompt: 6-minute cinematic walkthrough, Danny and Rosa standoff, police cruisers, action-packed.
+2026-10-03 19:58:15,408 - INFO - Successfully uploaded long: GTA 6 – Vice City Heist (Part 3) Cinematic Walkthrough
+2026-10-03 19:58:45,409 - INFO - Daily pipeline completed successfully.
+2026-10-03 23:40:36,906 - INFO - Daemon started for SnakeMystry Shorts pipeline.
+2026-10-03 23:40:36,937 - INFO - Please visit this URL to authorize this application: https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=798513869863-3nerb57admlqpnjgvduf0p2qqi9ul5fc.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2F&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.upload&state=QsliTHHhbKVBoajJyccu0ZN9imFmLc&code_challenge=mtgyMImBoSR_cv2MOQphVyurCuAaTvpJu3QyU329zmU&code_challenge_method=S256&access_type=offline
+2026-10-03 23:42:07,022 - INFO - "GET /?state=QsliTHHhbKVBoajJyccu0ZN9imFmLc&iss=https://accounts.google.com&code=4/0AXlqoi4woOZ74PrwtSi8MYuxUU_hRd12083vFfWgPXTPaUPIMHXD2amRZhfXUsVf5H1MSA&scope=https://www.googleapis.com/auth/youtube.upload HTTP/1.1" 200 65
+2026-10-03 23:42:07,544 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-10-03 23:42:11,407 - INFO - Successfully uploaded short: Hidden Secrets of the Jungle King 🐅 #Shorts #Tiger (ID: 8RoP1C_rPkU)
+2026-10-04 00:07:04,362 - INFO - Daemon started for SnakeMystry Shorts pipeline.
+2026-10-04 00:07:04,387 - INFO - Please visit this URL to authorize this application: https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=798513869863-3nerb57admlqpnjgvduf0p2qqi9ul5fc.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2F&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.upload&state=F2bluSPN3Zj7RwepxM90rGlzoyxYYA&code_challenge=kQeaR4xD2sS4W33QS7QC46M5XnmOcGLeq4a9oJltNgA&code_challenge_method=S256&access_type=offline
