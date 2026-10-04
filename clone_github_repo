@@ -1,0 +1,38 @@
+@bot.message_handler(commands=['clone'])
+def clone_github_repo(message):
+    args = message.text.split(maxsplit=1)
+    if len(args) < 2:
+        bot.reply_to(message, "⚠️ Please GitHub URL do!\nExample: `/clone https://github.com/guljarali3057-cpu/Al-video-01.git`", parse_mode="Markdown")
+        return
+        
+    repo_url = args[1].strip()
+    bot.reply_to(message, f"⏳ GitHub repository download & extraction shuru ho rahi hai...", parse_mode="Markdown")
+    
+    try:
+        if repo_url.endswith('.git'):
+            repo_url = repo_url[:-4]
+            
+        zip_url = f"{repo_url}/archive/refs/heads/main.zip"
+        try:
+            req = urllib.request.urlopen(zip_url)
+        except Exception:
+            zip_url = f"{repo_url}/archive/refs/heads/master.zip"
+            req = urllib.request.urlopen(zip_url)
+            
+        with zipfile.ZipFile(io.BytesIO(req.read())) as z:
+            for member in z.infolist():
+                parts = member.filename.split('/', 1)
+                if len(parts) > 1 and parts[1]:
+                    target_path = parts[1]
+                    if member.is_dir():
+                        os.makedirs(target_path, exist_ok=True)
+                    else:
+                        target_dir = os.path.dirname(target_path)
+                        if target_dir:
+                            os.makedirs(target_dir, exist_ok=True)
+                        with z.open(member) as source, open(target_path, 'wb') as target:
+                            target.write(source.read())
+                
+        bot.reply_to(message, "✅ Saari files seedha root folder mein extract ho gayi hain! Ab `/files` command se check kar lo.", parse_mode="Markdown")
+    except Exception as e:
+        bot.reply_to(message, f"❌ Download failed:\n`{e}`", parse_mode="Markdown")
